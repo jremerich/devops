@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./kubernetes/flux/examples/01/flux-system/redis
+  path: ./flux-system/redis
   prune: true
   sourceRef:
     kind: GitRepository
