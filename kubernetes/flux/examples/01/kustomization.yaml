@@ -5,5 +5,5 @@ resources:
 ## Redis flux kustomization
 - ./redis/flux-kustomization.yaml
 
-patchesStrategicMerge:
-- 01-deployment.yaml
+# patchesStrategicMerge:
+
